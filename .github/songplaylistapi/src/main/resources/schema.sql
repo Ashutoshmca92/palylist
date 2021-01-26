@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS playlist;
+  
+CREATE TABLE playlist (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  playlist VARCHAR(250) NOT NULL
+);
